@@ -1,4 +1,2 @@
-#  Mapa mental sobre la Ingenieria de Software
-  
-  
-##  :trophy: C0.2 Reto en clase
+#  Eduardo Collazo Rivera Eduardo
+## Pronto mas información....
