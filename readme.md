@@ -1,2 +1,6 @@
-#  Eduardo Collazo Rivera Eduardo
-## Pronto mas información....
+#  Eduardo Collazo Rivera Eduardo 
+___
+###   :computer: Ing. en Sistemas Computacionales
+###  :clipboard: Analisis Avanzado de Desarrollo de Software
+___
+###  :file_folder: Repositorio de actividades solicitadas por el curso 
