@@ -1,5 +1,5 @@
 ![Software](/img/Software.jpg)
-#  Eduardo Collazo Rivera Eduardo 
+#  Eduardo Collazo Rivera 
 ___
 ###   :computer: Carrera: Ing. en Sistemas Computacionales
 ###  :clipboard: Materia: Analisis Avanzado de Software
