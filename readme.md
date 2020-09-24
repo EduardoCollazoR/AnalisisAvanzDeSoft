@@ -1,7 +1,8 @@
 #  Eduardo Collazo Rivera Eduardo 
 ___
-###   :computer: Ing. en Sistemas Computacionales
-###  :clipboard: Analisis Avanzado de Software
+###   :computer: Carrera: Ing. en Sistemas Computacionales
+###  :clipboard: Materia: Analisis Avanzado de Software
+###   :trident: Equipo: Supreme Coders
 ___
 ###  :file_folder: Repositorio de actividades solicitadas por el curso 
 ###  :books: Unidad 1
