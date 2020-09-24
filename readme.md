@@ -1,3 +1,4 @@
+![Software](/img/Software.jpg)
 #  Eduardo Collazo Rivera Eduardo 
 ___
 ###   :computer: Carrera: Ing. en Sistemas Computacionales
