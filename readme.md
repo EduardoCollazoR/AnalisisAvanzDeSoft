@@ -5,7 +5,7 @@ ___
 ###  :clipboard: Materia: Analisis Avanzado de Software
 ###   :trident: Equipo: Supreme Coders
 ___
-###  :file_folder: Repositorio de actividades solicitadas por el curso 
+###  :file_folder: *Repositorio de actividades solicitadas por el curso* 
 ###  :books: Unidad 1
  * :ballot_box_with_check: :pencil: [C0.1 Integrar Equipos](blog/C01.EduardoCollazo_Supreme_Coders.md) 
  * :ballot_box_with_check: :pencil: [C0.2 Mapa Mental de Ingeniera de Software](blog/C0.2_EduardoCollazo_Supreme_Coders_.md) 
