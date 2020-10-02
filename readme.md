@@ -11,3 +11,5 @@ ___
  * :ballot_box_with_check: :pencil: [C0.2 Mapa Mental de Ingeniera de Software](blog/C0.2_EduardoCollazo_Supreme_Coders_.md) 
  * :ballot_box_with_check: :pencil: [C0.3 Diagrama de Flujo Proceso RUP](blog/C0.3_EduardoCollazo_Supreme_Coders.md) 
  * :ballot_box_with_check: :pencil: [C0.4 Sistemas Embebidos](/blog/C0.4_EduardoCollazo_SupremeCoders.md) 
+ *   :pencil: [C1.1 Modelos de Negocio](/blog/C1.1_EduardoCollazo_Supreme_Coders.md) 
+ *  :pencil: [C1.2 Acta Constitutiva](/blog/C1.2_EduardoCollazo_Supreme_Coders.md) 
