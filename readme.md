@@ -13,3 +13,4 @@ ___
  * :ballot_box_with_check: :pencil: [C0.4 Sistemas Embebidos](/blog/C0.4_EduardoCollazo_SupremeCoders.md) 
  * :ballot_box_with_check: :pencil: [C1.1 Modelo de Negocio](/blog/C1.1_EduardoCollazo_Supreme_Coders.md) 
  * :ballot_box_with_check: :pencil: [C1.2 Acta Constitutiva](/blog/C1.2_EduardoCollazo_Supreme_Coders.md) 
+ * :ballot_box_with_check: :pencil: [C1.3 Requisitos de Usuario y Sistema](/blog/C1.3_EduardoCollazo_Supreme_Coders.md) 
