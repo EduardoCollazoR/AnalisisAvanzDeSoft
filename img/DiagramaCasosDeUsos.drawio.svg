@@ -1,279 +1,633 @@
-<mxfile host="65bd71144e" modified="2020-10-12T22:41:43.032Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.49.2 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="4J8t2eDAO9q1iOBOzNzl" version="13.6.5">
-    <diagram id="sw04U94akr9VFKhb-vyl" name="Page-1">
-        <mxGraphModel dx="1096" dy="1920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
-            <root>
-                <mxCell id="0"/>
-                <mxCell id="1" parent="0"/>
-                <mxCell id="133" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;strokeColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="100" y="-330" width="910" height="1360" as="geometry"/>
-                </mxCell>
-                <mxCell id="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=block;endFill=0;" parent="1" source="2" target="6" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" target="97">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="80" y="-150" as="sourcePoint"/>
-                        <Array as="points">
-                            <mxPoint x="80" y="-150"/>
-                            <mxPoint x="80" y="-190"/>
-                            <mxPoint x="310" y="-190"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" target="90">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="70" y="-164" as="sourcePoint"/>
-                        <Array as="points">
-                            <mxPoint x="70" y="-220"/>
-                            <mxPoint x="130" y="-220"/>
-                            <mxPoint x="130" y="-260"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="2" value="&lt;font color=&quot;#000000&quot;&gt;Administrador&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;gradientColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="39.99999999999999" y="-170" width="30" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;strokeColor=#000000;dashed=1;labelBackgroundColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" parent="1" target="100" edge="1">
-                    <mxGeometry x="0.1429" y="20" relative="1" as="geometry">
-                        <mxPoint x="488" y="140" as="sourcePoint"/>
-                        <mxPoint x="558" y="140" as="targetPoint"/>
-                        <Array as="points"/>
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="6" value="&lt;font color=&quot;#000000&quot;&gt;Registro de usuarios&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="370" y="100" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=0;" parent="1" source="11" target="12" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="150" y="364"/>
-                            <mxPoint x="150" y="520"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="11" value="Usuario" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="19.999999999999993" y="333.72999999999996" width="30" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontSize=16;endArrow=block;endFill=0;" parent="1" source="12" target="106" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="12" value="Digitalizacion datos" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=none;gradientColor=none;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="210" y="480" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#000000;fontSize=16;endArrow=block;endFill=0;" parent="1" source="15" target="144" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="1140" y="-211"/>
-                        </Array>
-                        <mxPoint x="995" y="-540" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.85;exitY=0.05;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#000000;fontSize=16;endArrow=block;endFill=0;exitPerimeter=0;" parent="1" source="15" target="149" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="1030" y="-536.5" as="sourcePoint"/>
-                        <Array as="points">
-                            <mxPoint x="1130" y="224"/>
-                            <mxPoint x="1130" y="-31"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="15" value="Base de datos" style="shape=datastore;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=none;gradientColor=none;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="1040" y="220" width="100" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=0;" parent="1" source="2" target="37" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="145" y="-130"/>
-                            <mxPoint x="145" y="220"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeColor=#000000;fontSize=16;endArrow=block;endFill=0;" parent="1" source="37" target="106" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="280" y="320"/>
-                            <mxPoint x="330" y="320"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#000000;fontSize=16;endArrow=block;endFill=0;" parent="1" source="37" target="112" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="260" y="450"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="37" value="Control de accesos" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=none;gradientColor=none;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="220" y="180" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="47" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Sistema&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;fontSize=16;fontStyle=3" parent="1" vertex="1">
-                    <mxGeometry x="550" y="-310" width="40" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" parent="1" source="11" target="71" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="190" y="560" as="targetPoint"/>
-                        <mxPoint x="100.34999999999991" y="620" as="sourcePoint"/>
-                        <Array as="points">
-                            <mxPoint x="125" y="380"/>
-                            <mxPoint x="125" y="620"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#000000;fontSize=16;endArrow=block;endFill=0;" parent="1" source="71" target="128" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="71" value="Notificacion de alertas" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=none;gradientColor=none;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="200.35" y="580" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="138" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#000000;fontSize=16;endArrow=block;endFill=0;" parent="1" source="72" target="137" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="72" value="Control de sensores" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=none;gradientColor=none;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="200.35" y="760" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" parent="1" source="73" target="72" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="190" y="760" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="73" value="Personal" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;fillColor=none;gradientColor=none;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="19.999999999999993" y="770" width="30" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="145" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#000000;fontSize=16;endArrow=block;endFill=0;" parent="1" source="90" target="144" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="90" value="Reportes" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=none;gradientColor=none;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="210" y="-300" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="150" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#000000;fontSize=16;endArrow=block;endFill=0;" parent="1" source="97" target="149" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="97" value="Historial general&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=none;gradientColor=none;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="250" y="-160" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;fontSize=16;entryX=0.339;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" parent="1" source="100" target="15" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="100" value="&lt;font color=&quot;#000000&quot;&gt;Validacion de permisos de autorizacion para el acceso&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="610" y="100" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;fontSize=16;entryX=0.656;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" parent="1" source="106" target="15" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="991.0667317708334" y="560" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontSize=16;dashed=1;endArrow=block;endFill=0;" parent="1" source="106" target="6" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=none;strokeColor=#000000;fontSize=16;endArrow=block;endFill=0;" parent="1" source="106" target="72" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="472" y="540"/>
-                            <mxPoint x="360" y="540"/>
-                            <mxPoint x="360" y="772"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="106" value="Iniciar Sesion" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=none;gradientColor=none;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="370" y="250" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#000000;fontSize=16;endArrow=block;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="112" target="15" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="1180" y="360" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="670" y="470"/>
-                            <mxPoint x="1160" y="470"/>
-                            <mxPoint x="1160" y="255"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="112" value="Cerrar Sesion" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=none;gradientColor=none;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="550" y="440" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=none;strokeColor=#000000;fontSize=16;endArrow=block;endFill=0;" parent="1" source="114" target="106" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="740" y="330"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.001;entryY=0.292;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;labelBackgroundColor=none;strokeColor=#000000;fontSize=16;endArrow=block;endFill=0;" parent="1" source="114" target="112" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#000000;fontSize=16;entryX=1;entryY=0.31;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=block;endFill=0;" parent="1" source="114" target="128" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="700" y="570"/>
-                            <mxPoint x="540" y="570"/>
-                            <mxPoint x="540" y="605"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="114" value="Hora del sistema" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=none;gradientColor=none;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="740" y="310" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="115" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 14px&quot;&gt;&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-                    <mxGeometry x="310" y="320" width="40" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="118" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 14px&quot;&gt;&amp;lt;&amp;lt;incluide&amp;gt;&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-                    <mxGeometry x="530" y="120" width="40" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="122" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 14px&quot;&gt;&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-                    <mxGeometry x="310" y="430" width="40" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="123" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 14px&quot;&gt;&amp;lt;&amp;lt;incluide&amp;gt;&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-                    <mxGeometry x="670" y="340" width="40" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="155" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#000000;fontSize=16;endArrow=block;endFill=0;" parent="1" source="128" target="154" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="128" value="Falla o error" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=none;gradientColor=none;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="400" y="580" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="132" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 14px&quot;&gt;&amp;lt;&amp;lt;incluide&amp;gt;&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-                    <mxGeometry x="630" y="550" width="40" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="136" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 14px&quot;&gt;&amp;lt;&amp;lt;incluide&amp;gt;&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-                    <mxGeometry x="300" y="690" width="40" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#000000;fontSize=16;endArrow=block;endFill=0;entryX=0.336;entryY=1.044;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="137" target="15" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="830" y="800"/>
-                            <mxPoint x="830" y="710"/>
-                            <mxPoint x="1040" y="710"/>
-                            <mxPoint x="1040" y="370"/>
-                            <mxPoint x="1074" y="370"/>
-                        </Array>
-                        <mxPoint x="1060" y="330" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="137" value="Monitorear y controlar sensores" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=none;gradientColor=none;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="410" y="760" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="144" value="Generar reporte" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=none;gradientColor=none;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="400" y="-251.5" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="149" value="Crear archivo" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=none;gradientColor=none;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="400" y="-71.5" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#000000;fontSize=16;endArrow=block;endFill=0;" parent="1" source="154" target="15" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="154" value="Mandar alerta" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=none;gradientColor=none;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="590" y="580" width="120" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="157" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 14px&quot;&gt;&amp;lt;&amp;lt;incluide&amp;gt;&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-                    <mxGeometry x="700" y="-231.5" width="40" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="158" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 14px&quot;&gt;&amp;lt;&amp;lt;incluide&amp;gt;&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-                    <mxGeometry x="700" y="-51.5" width="40" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="168" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 14px&quot;&gt;&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-                    <mxGeometry x="450" y="200" width="40" height="20" as="geometry"/>
-                </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
-</mxfile>
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1157px" height="1361px" viewBox="-0.5 -0.5 1157 1361" content="&lt;mxfile host=&quot;17e793d6-5b05-4886-8678-7ff920a3b117&quot; modified=&quot;2020-10-12T23:15:23.999Z&quot; agent=&quot;5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.49.2 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36&quot; etag=&quot;q0qFBa_5mPwj5v8qxrN-&quot; version=&quot;13.6.5&quot;&gt;&lt;diagram id=&quot;sw04U94akr9VFKhb-vyl&quot; name=&quot;Page-1&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;" style="background-color: rgb(255, 255, 255);">
+    <defs/>
+    <g>
+        <rect x="88" y="0" width="910" height="1360" fill="none" stroke="#000000" pointer-events="all"/>
+        <path d="M 58 190 L 208 190 L 208 470 L 349.88 470" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 356.88 470 L 349.88 473.5 L 349.88 466.5 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 68 180 L 68 140 L 298 140 L 298 161.88" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 298 168.88 L 294.5 161.88 L 301.5 161.88 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 58 166 L 58 110 L 118 110 L 118 70 L 189.88 70" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 196.88 70 L 189.88 73.5 L 189.88 66.5 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="43" cy="167.5" rx="7.5" ry="7.5" fill="none" stroke="#000000" pointer-events="all"/>
+        <path d="M 43 175 L 43 200 M 43 180 L 28 180 M 43 180 L 58 180 M 43 200 L 28 220 M 43 200 L 58 220" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 227px; margin-left: 43px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                <font color="#000000">
+                                    Administrador
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="43" y="239" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Admin...
+                </text>
+            </switch>
+        </g>
+        <path d="M 476 470 L 589.88 470" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 596.88 470 L 589.88 473.5 L 589.88 466.5 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="418" cy="470" rx="60" ry="40" fill="none" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 470px; margin-left: 359px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <font color="#000000">
+                                    Registro de usuarios
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="418" y="474" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Registro de usuarios
+                </text>
+            </switch>
+        </g>
+        <path d="M 38 693.7 L 138 693.7 L 138 850 L 189.88 850" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 196.88 850 L 189.88 853.5 L 189.88 846.5 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="23" cy="671.23" rx="7.5" ry="7.5" fill="none" stroke="#000000" pointer-events="all"/>
+        <path d="M 23 678.73 L 23 703.73 M 23 683.73 L 8 683.73 M 23 683.73 L 38 683.73 M 23 703.73 L 8 723.73 M 23 703.73 L 38 723.73" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 731px; margin-left: 23px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                Usuario
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="23" y="743" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Usuar...
+                </text>
+            </switch>
+        </g>
+        <path d="M 418 660 L 418 850 L 326.12 850" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 319.12 850 L 326.12 846.5 L 326.12 853.5 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="258" cy="850" rx="60" ry="40" fill="none" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 850px; margin-left: 199px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Digitalizacion datos
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="258" y="854" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Digitalizacion datos
+                </text>
+            </switch>
+        </g>
+        <path d="M 1128 585 L 1128 118.5 L 516.12 118.5" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 509.12 118.5 L 516.12 115 L 516.12 122 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 1113 553.5 L 1118 553.5 L 1118 298.5 L 516.12 298.5" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 509.12 298.5 L 516.12 295 L 516.12 302 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 1028 559 C 1028 568 1128 568 1128 559" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 1028 563.5 C 1028 572.5 1128 572.5 1128 563.5" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 1028 568 C 1028 577 1128 577 1128 568" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 1028 559 C 1028 547 1128 547 1128 559 L 1128 611 C 1128 623 1028 623 1028 611 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 98px; height: 1px; padding-top: 597px; margin-left: 1029px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Base de datos
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1078" y="600" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Base de datos
+                </text>
+            </switch>
+        </g>
+        <path d="M 58 200 L 133 200 L 133 550 L 199.88 550" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 206.88 550 L 199.88 553.5 L 199.88 546.5 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 268 590 L 268 650 L 318 650 L 318 648.3 L 367.46 648.29" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 374.46 648.28 L 367.46 651.79 L 367.45 644.79 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 248 587.71 L 248 780 L 550.2 780" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 557.2 780 L 550.2 783.5 L 550.2 776.5 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="268" cy="550" rx="60" ry="40" fill="none" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 550px; margin-left: 209px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Control de accesos
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="268" y="554" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Control de accesos
+                </text>
+            </switch>
+        </g>
+        <rect x="538" y="20" width="40" height="20" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 30px; margin-left: 539px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 16px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; font-weight: bold; font-style: italic; white-space: normal; word-wrap: normal; ">
+                                <font style="font-size: 18px">
+                                    Sistema
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="558" y="35" fill="#000000" font-family="Helvetica" font-size="16px" text-anchor="middle" font-weight="bold" font-style="italic">
+                    Siste...
+                </text>
+            </switch>
+        </g>
+        <path d="M 38 710 L 113 710 L 113 950 L 180.23 950" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 187.23 950 L 180.23 953.5 L 180.23 946.5 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 308.35 950 L 379.88 950" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 386.88 950 L 379.88 953.5 L 379.88 946.5 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="248.35" cy="950" rx="60" ry="40" fill="none" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 950px; margin-left: 189px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Notificacion de alertas
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="248" y="954" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Notificacion de aler...
+                </text>
+            </switch>
+        </g>
+        <path d="M 308.35 1130 L 389.88 1130" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 396.88 1130 L 389.88 1133.5 L 389.88 1126.5 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="248.35" cy="1130" rx="60" ry="40" fill="none" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 1130px; margin-left: 189px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Control de sensores
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="248" y="1134" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Control de sensores
+                </text>
+            </switch>
+        </g>
+        <path d="M 38 1130 L 180.23 1130" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 187.23 1130 L 180.23 1133.5 L 180.23 1126.5 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="23" cy="1107.5" rx="7.5" ry="7.5" fill="none" stroke="#000000" pointer-events="all"/>
+        <path d="M 23 1115 L 23 1140 M 23 1120 L 8 1120 M 23 1120 L 38 1120 M 23 1140 L 8 1160 M 23 1140 L 38 1160" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1167px; margin-left: 23px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                Personal
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="23" y="1179" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Perso...
+                </text>
+            </switch>
+        </g>
+        <path d="M 318 70 L 353 70 L 353 118.5 L 379.88 118.5" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 386.88 118.5 L 379.88 122 L 379.88 115 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="258" cy="70" rx="60" ry="40" fill="none" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 70px; margin-left: 199px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Reportes
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="258" y="74" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Reportes
+                </text>
+            </switch>
+        </g>
+        <path d="M 358 210 L 448 210 L 448 250.38" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 448 257.38 L 444.5 250.38 L 451.5 250.38 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="298" cy="210" rx="60" ry="40" fill="none" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 210px; margin-left: 239px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Historial general
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="298" y="214" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Historial general
+                </text>
+            </switch>
+        </g>
+        <path d="M 718 470 L 1061.9 470 L 1061.9 542.3" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 1061.9 549.3 L 1058.4 542.3 L 1065.4 542.3 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="658" cy="470" rx="60" ry="40" fill="none" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 470px; margin-left: 599px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <font color="#000000">
+                                    Validacion de permisos de autorizacion para el acceso
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="658" y="474" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Validacion de permis...
+                </text>
+            </switch>
+        </g>
+        <path d="M 478 620 L 753 620 L 753 530 L 1093.6 530 L 1093.6 541.32" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 1093.6 548.32 L 1090.1 541.32 L 1097.1 541.32 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 418 580 L 418 518.12" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 418 511.12 L 421.5 518.12 L 414.5 518.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 460.43 648.28 L 460.4 870 L 348 870 L 348 1101.7 L 298.89 1101.71" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 291.89 1101.72 L 298.89 1098.21 L 298.9 1105.21 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="418" cy="620" rx="60" ry="40" fill="none" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 620px; margin-left: 359px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Iniciar Sesion
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="418" y="624" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Iniciar Sesion
+                </text>
+            </switch>
+        </g>
+        <path d="M 658 810 L 658 800 L 1148 800 L 1148 585 L 1136.12 585" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 1129.12 585 L 1136.12 581.5 L 1136.12 588.5 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="598" cy="810" rx="60" ry="40" fill="none" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 810px; margin-left: 539px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Cerrar Sesion
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="598" y="814" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Cerrar Sesion
+                </text>
+            </switch>
+        </g>
+        <path d="M 728 680 L 728 660 L 426.12 660" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 419.12 660 L 426.12 656.5 L 426.12 663.5 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 745.57 708.28 L 518 708.3 L 518 793.4 L 530 793.38" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 537 793.36 L 530.01 796.88 L 530 789.88 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 788 720 L 688 720 L 688 900 L 528 900 L 528 934.8 L 516.12 934.8" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 509.12 934.8 L 516.12 931.3 L 516.12 938.3 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="788" cy="680" rx="60" ry="40" fill="none" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 680px; margin-left: 729px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Hora del sistema
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="788" y="684" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Hora del sistema
+                </text>
+            </switch>
+        </g>
+        <rect x="298" y="650" width="40" height="20" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 660px; margin-left: 299px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 16px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <font color="#000000" style="font-size: 14px">
+                                    &lt;&lt;extends&gt;&gt;
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="318" y="665" fill="#000000" font-family="Helvetica" font-size="16px" text-anchor="middle">
+                    &lt;&lt;ext...
+                </text>
+            </switch>
+        </g>
+        <rect x="518" y="450" width="40" height="20" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 460px; margin-left: 519px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 16px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <font color="#000000" style="font-size: 14px">
+                                    &lt;&lt;incluide&gt;&gt;
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="538" y="465" fill="#000000" font-family="Helvetica" font-size="16px" text-anchor="middle">
+                    &lt;&lt;inc...
+                </text>
+            </switch>
+        </g>
+        <rect x="298" y="760" width="40" height="20" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 770px; margin-left: 299px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 16px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <font color="#000000" style="font-size: 14px">
+                                    &lt;&lt;extends&gt;&gt;
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="318" y="775" fill="#000000" font-family="Helvetica" font-size="16px" text-anchor="middle">
+                    &lt;&lt;ext...
+                </text>
+            </switch>
+        </g>
+        <rect x="658" y="670" width="40" height="20" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 680px; margin-left: 659px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 16px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <font color="#000000" style="font-size: 14px">
+                                    &lt;&lt;incluide&gt;&gt;
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="678" y="685" fill="#000000" font-family="Helvetica" font-size="16px" text-anchor="middle">
+                    &lt;&lt;inc...
+                </text>
+            </switch>
+        </g>
+        <path d="M 508 950 L 569.88 950" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 576.88 950 L 569.88 953.5 L 569.88 946.5 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="448" cy="950" rx="60" ry="40" fill="none" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 950px; margin-left: 389px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Falla o error
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="448" y="954" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Falla o error
+                </text>
+            </switch>
+        </g>
+        <rect x="618" y="880" width="40" height="20" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 890px; margin-left: 619px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 16px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <font color="#000000" style="font-size: 14px">
+                                    &lt;&lt;incluide&gt;&gt;
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="638" y="895" fill="#000000" font-family="Helvetica" font-size="16px" text-anchor="middle">
+                    &lt;&lt;inc...
+                </text>
+            </switch>
+        </g>
+        <rect x="288" y="1020" width="40" height="20" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 1030px; margin-left: 289px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 16px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <font color="#000000" style="font-size: 14px">
+                                    &lt;&lt;incluide&gt;&gt;
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="308" y="1035" fill="#000000" font-family="Helvetica" font-size="16px" text-anchor="middle">
+                    &lt;&lt;inc...
+                </text>
+            </switch>
+        </g>
+        <path d="M 518 1130 L 818 1130 L 818 1040 L 1028 1040 L 1028 700 L 1061.6 700 L 1061.6 631.2" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 1061.6 624.2 L 1065.1 631.2 L 1058.1 631.2 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="458" cy="1130" rx="60" ry="40" fill="none" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 1130px; margin-left: 399px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Monitorear y controlar sensores
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="458" y="1134" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Monitorear y control...
+                </text>
+            </switch>
+        </g>
+        <ellipse cx="448" cy="118.5" rx="60" ry="40" fill="none" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 119px; margin-left: 389px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Generar reporte
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="448" y="122" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Generar reporte
+                </text>
+            </switch>
+        </g>
+        <ellipse cx="448" cy="298.5" rx="60" ry="40" fill="none" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 299px; margin-left: 389px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Crear archivo
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="448" y="302" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Crear archivo
+                </text>
+            </switch>
+        </g>
+        <path d="M 698 950 L 863 950 L 863 585 L 1019.88 585" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 1026.88 585 L 1019.88 588.5 L 1019.88 581.5 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="638" cy="950" rx="60" ry="40" fill="none" stroke="#000000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 950px; margin-left: 579px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Mandar alerta
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="638" y="954" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Mandar alerta
+                </text>
+            </switch>
+        </g>
+        <rect x="688" y="98.5" width="40" height="20" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 109px; margin-left: 689px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 16px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <font color="#000000" style="font-size: 14px">
+                                    &lt;&lt;incluide&gt;&gt;
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="708" y="113" fill="#000000" font-family="Helvetica" font-size="16px" text-anchor="middle">
+                    &lt;&lt;inc...
+                </text>
+            </switch>
+        </g>
+        <rect x="688" y="278.5" width="40" height="20" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 289px; margin-left: 689px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 16px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <font color="#000000" style="font-size: 14px">
+                                    &lt;&lt;incluide&gt;&gt;
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="708" y="293" fill="#000000" font-family="Helvetica" font-size="16px" text-anchor="middle">
+                    &lt;&lt;inc...
+                </text>
+            </switch>
+        </g>
+        <rect x="438" y="530" width="40" height="20" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 540px; margin-left: 439px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 16px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <font color="#000000" style="font-size: 14px">
+                                    &lt;&lt;extends&gt;&gt;
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="458" y="545" fill="#000000" font-family="Helvetica" font-size="16px" text-anchor="middle">
+                    &lt;&lt;ext...
+                </text>
+            </switch>
+        </g>
+        <path d="M 358 620 L 338 620 L 338 680 L 418 680 L 418 666.37" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/>
+        <path d="M 418 661.12 L 421.5 668.12 L 418 666.37 L 414.5 668.12 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="348" y="830" width="40" height="20" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 840px; margin-left: 349px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 16px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <font color="#000000" style="font-size: 14px">
+                                    &lt;&lt;incluide&gt;&gt;
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="368" y="845" fill="#000000" font-family="Helvetica" font-size="16px" text-anchor="middle">
+                    &lt;&lt;inc...
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://desk.draw.io/support/solutions/articles/16000042487" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>
