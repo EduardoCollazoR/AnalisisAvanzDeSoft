@@ -16,3 +16,4 @@ ___
  * :ballot_box_with_check: :pencil: [C1.2 Acta Constitutiva](/blog/C1.2_EduardoCollazo_Supreme_Coders.md) 
  * :ballot_box_with_check: :pencil: [C1.3 Requisitos de Usuario y Sistema](/blog/C1.3_EduardoCollazo_Supreme_Coders.md) 
  * :ballot_box_with_check: :pencil: [C1.4 UML Casos de Usos, Secuencia y Clases](/blog/C1.4_EduardoCollazo_Supreme_Coders.md) 
+* :ballot_box_with_check: :pencil: [C1.5 UML Estados, Componentes y Distribucion](/blog/C1.5_EduardoCollazo_Supreme_Coders.md) 
