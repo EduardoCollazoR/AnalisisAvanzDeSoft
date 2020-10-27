@@ -20,3 +20,4 @@ ___
 *  :ballot_box_with_check: :pencil: [A1.1 Modelado de Requisitos a través de Diagramas UML](/docs/A1.1_EduardoCollazo_Supreme_Coders.md) 
 ###  :books: Unidad 2
 * :ballot_box_with_check: :pencil: [C2.1 Especificación de Requerimientos Funcionales](/blog/C2.1_EduardoCollazo_Supreme_Coders.md) 
+*  :ballot_box_with_check: :pencil: [C2.2 Especificación de Requerimientos No Funcionales](/blog/C2.2_EduardoCollazo_Supreme_Coders.md) 
