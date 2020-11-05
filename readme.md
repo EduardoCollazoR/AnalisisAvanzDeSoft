@@ -24,4 +24,4 @@ ___
 *  :ballot_box_with_check: :pencil: [A1.2 Especificación de Requisitos y Documentación](/docs/A1.2_EduardoCollazo_Supreme_Coders.md)
 *  :ballot_box_with_check: :pencil: [C2.3 Decisiones en el Diseño de Arquitectura](/blog/C2.3_EduardoCollazo_Supreme_Coders.md)
 *  :ballot_box_with_check: :pencil: [C2.4 Estilos, Patrones de Arquitectura de Software ](/blog/C2.4_EduardoCollazo_Supreme_Coders.md)
-*  :ballot_box_with_check: :pencil: [A2.2 Diseño de la Arquitectura 4+1. ](/docs/A2.2_EduardoCollazo_Supreme_Coders.md)
+*  :ballot_box_with_check: :pencil: [A2.2 Diseño de la Arquitectura 4+1 ](/docs/A2.2_EduardoCollazo_Supreme_Coders.md)
