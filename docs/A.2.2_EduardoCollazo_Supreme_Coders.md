@@ -33,7 +33,16 @@ ___
 2. :round_pushpin: [Enlace al documento](https://github.com/EduardoCollazoR/AnalisisAvanzDeSoft/blob/master/pdf/EspecificacionDeRequisitos.pdf)
 
 ___
+#### Conclusiones
+*Eduardo Collazo Rivera* 
+- De acuerdo a la actividad realizada, formalizamos un documento para la presentacion de los diagramas anteriormente ya hechos, utilizando el modelo 4+1, esto nos ayudo para ver de forma mas formal estos diagramas, dando representaciones de como sera el prototipo asi como tambien sus componentes y funciones.
 
+*Alejandro Bahama Trujillo*
+- "En la practica establecida se utiliza el modelo 4+1, esta nos ayuda a mejorar la organización de la documentación basado en plantillas para darle una mejor estructura al contenido. Anteriormente en otras documentaciones se usaron diagramas para diferentes situaciones, que en esta práctica fueron utilizadas pero también actualizadas y corregidas de acuerdo a lo indicado en revisiones pasadas. Cada vez mas nos adentramos a distintas formas de estructuras un proyecto."
+
+*Emmanuel Frias Aviña*
+- "Creo que el modelo 4+1 es muy versátil para documentar un proyecto, ya que tiene lo justo para representar los puntos mas importantes que hay que comunicar, tanto al cliente, al equipo de desarrollo como a otras partes implicadas"
+___
 ### :bomb: Rubrica
 
 | Criterios     | Descripción                                                                                  | Puntaje |
