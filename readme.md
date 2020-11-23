@@ -26,3 +26,5 @@ ___
 *  :ballot_box_with_check: :pencil: [C2.4 Estilos, Patrones de Arquitectura de Software ](/blog/C2.4_EduardoCollazo_Supreme_Coders.md)
 *  :ballot_box_with_check: :pencil: [A2.2 Diseño de la Arquitectura 4+1 ](/docs/A2.2_EduardoCollazo_Supreme_Coders.md)
 *  :ballot_box_with_check: :pencil: [A2.3 Patrones de Arquitectura de Software](/docs/A2.3_EduardoCollazo_Supreme_Coders.md)
+###  :books: Unidad 2
+* :ballot_box_with_check: :pencil: [C3.1 Design Thinking](/blog/C3.1_EduardoCollazo_Supreme_Coders.md) 
