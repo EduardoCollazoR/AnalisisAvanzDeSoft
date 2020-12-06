@@ -30,3 +30,4 @@ ___
 * :ballot_box_with_check: :pencil: [C3.1 Design Thinking](/blog/C3.1_EduardoCollazo_Supreme_Coders.md) 
 * :ballot_box_with_check: :pencil: [C3.2 Fase Inicio del Marco de Trabajo SCRUM](/blog/C3.2_EduardoCollazo_Supreme_Coders.md) 
 * :ballot_box_with_check: :pencil: [A3.2 Documentacion Scrum Fase Inicio](/docs/A3.2_EduardoCollazo_Supreme_Coders.md) 
+* :ballot_box_with_check: :pencil: [A3.3 Documentacion Scrum Fase Planificacion Estimacion](/docs/A3.3_EduardoCollazo_Supreme_Coders.md) 
